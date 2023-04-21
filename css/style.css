@@ -1,0 +1,251 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+ /* Start Header Area */
+
+.header{
+  background: #3B5998;
+}
+.contener{
+  width: 69%;
+  margin: auto;
+  padding: 5px 0;
+  overflow: hidden;
+}
+.logo-area{
+  width: 30%;
+  float: left;
+  
+}
+.logo-area img{
+  width: 182px;
+  margin-top: 12px;
+}
+.login-area{
+  width: 70%;
+  float: left;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.login-area form{
+  float: right;
+}
+.login-area form label,
+.login-area form input{
+  display: block;
+  margin-bottom: 4px;
+}
+.login-area form input{
+  padding:3px 4px;
+  font-size: 13px;
+  border-radius: 2px;
+  border: 1px solid #163b8b;
+  
+}
+.login-area form .email input:hover,
+.login-area form .password input:hover{
+  border: thin solid black;
+}
+.login-area form .email input:focus,
+.login-area form .password input:focus{
+  border: thin solid black;
+  outline: none;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+  float: left;
+  margin-right: 10px;
+  
+}
+.login-area .password a{
+  text-decoration: none;
+  color: white;
+}
+.login-area .password a:hover{
+  text-decoration: underline;
+}
+.login-area .login{
+  margin-right: 0;
+}
+.login-area .login input{
+  background: #4c6baf;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 2px 2px #284480;
+  margin-top: 19px;
+  border-radius: 0px;
+}
+.login-area .login input:hover{
+  background: #3B5998;
+}
+.login-area .login input:focus{
+  border: 1px solid #0d2d70;
+}
+ /* End Header Area */
+
+/* Start Sign UP Area */
+
+.signup-area{
+  overflow: hidden;
+  background: linear-gradient(to left top,#b8caf5, white);
+} 
+.left-area{
+   width: 58%;
+   float: left;
+}
+.left-area p{
+  font-size: 25px;
+  font-weight: 600;
+  width: 90%;
+  text-align: justify;
+}
+.left-area img{
+  width: 100%;
+}
+.right-area{
+   width: 42%;
+   float: left;
+   font-family: Arial, Helvetica, sans-serif;
+   overflow: hidden;
+   padding: 8px 0px;
+}
+.right-area h2{
+  font-size: 36px;
+  margin: 5px 0;  
+  word-spacing: -2px;
+  letter-spacing: -1px;
+}
+.right-area h3, .right-area h4{
+  font-weight: normal;
+  color: rgba(0, 0, 0,0.6);
+}
+.right-area h3{
+  font-size: 25px;
+  margin: 2px 0 4px 0;
+}
+.right-area h4{
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.right-area .full-name input,
+.right-area .mobile-area input{
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(0, 0, 0,0.5);
+  border-radius: 5px;
+  padding: 4px 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.right-area .full-name input:focus,
+.right-area .mobile-area input:focus{
+  outline: none;
+  border: 1px solid #163B8B;
+}
+.full-name{
+  overflow: hidden;
+}
+.full-name .frist-name,
+.full-name .sur-name{
+  float: left;
+  width: 48%;
+}
+.full-name .frist-name{
+  margin-right: 4%;
+}
+.birtday{
+  overflow: hidden;
+}
+.birtday .birth-date,
+.birtday .birth-link{
+  width: 50%;
+  float: left;
+}
+.birtday .birth-date select{
+  float: left;
+  padding: 4px 0;
+  border: 1px solid #cccccc;
+}
+
+.right-area a{
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 15px;
+
+}
+.right-area a:hover{
+  text-decoration: underline;
+}
+.text-box p{
+  font-size: 12px;
+  text-align: justify;
+}
+.btn input{
+  padding: 5px 38px;
+  font-size: medium;
+  background: rgb(88, 146, 29);
+  border: 1px solid rgb(69, 122, 15);
+  border-radius: 4px;
+  color: white;
+  font-weight: normal;
+  box-shadow: 0px 2px 2px rgb(69, 122, 15);
+}
+.btn input:hover{
+  background: rgb(67, 133, 2);
+  border: 1px solid rgb(59, 109, 10);
+}
+
+/* End Sign UP Area */
+
+
+
+/* Start Footer Area */
+
+.footer .top{
+  border-bottom: 1px solid rgba(0, 0, 0,0.5);
+}
+.top p{
+  color: rgba(70, 52, 52, 0.7);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer a{
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.bottom p{
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(70, 52, 52, 0.7);
+}
+.footer .plus{
+  font-size:medium;
+  background: rgba(0, 0, 0,0.2);
+  padding:  0px 4px;
+  display: inline-block;
+  font-size:18px;
+  color: rgba(0, 0, 0,0.7);
+  margin-right: 0;
+  border: 1px solid rgba(0, 0, 0,0.4);
+  line-height: 13px;
+  border-radius: 2px;
+}
+.footer .plus:hover{
+  text-decoration: none;
+  border: 1px solid #3B5998;
+}
+/* End Footer Area */
